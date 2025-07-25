@@ -15,10 +15,12 @@ I havn't tested with either multiple HyperX devices connected at the same time o
 Requires Python to be installed
 
 ### Windows
-You can set the file extention to `.pyw` to run it headless
+- You can set the file extention to `.pyw` to run it headless
+
+- You can also set it in `shell:startup` aka `(C:\Users\YOU\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup)` to run at startup
 
 ### Other platforms
-Havn't experimented
+Havn't experimented yet
 
 # Features
 - Changes text color depending on level
