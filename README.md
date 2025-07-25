@@ -11,7 +11,7 @@ Python script that gives you a taskbar icon of the device battery level
 # Setup
 I havn't tested with either multiple HyperX devices connected at the same time or with another device for compatibility, but this works with my Cloud 3's
 
-> [!NOTE]
+> [!IMPORTANT]
 Requires Python to be installed
 
 ### Windows
