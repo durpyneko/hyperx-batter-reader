@@ -34,7 +34,9 @@ class HyperXBatteryReader:
                                                                  # could be device specific, but i found this using 
                                                                  # wireshark. im not a reverse engineer. 
                                                                  # i just fucked around and found out and got lucky
-                    return data[4]
+                                                                 # could also just mean device info as data[4] is level
+                                                                 # but idk as the request requires padding 62 empty bytes
+                    return data[4]                               # https://tenor.com/view/ah-eto-bleh-anime-bleh-gif-26784876
                 time.sleep(0.01)
         except:
             return None
